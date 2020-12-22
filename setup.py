@@ -7,7 +7,7 @@ VERSION = '0.1.0'
 PACKAGE_NAME = 'MDF_DALEC_GRASS'
 AUTHOR = 'Vasilis Myrgiotis'
 AUTHOR_EMAIL = 'v.myrgioti@ed.ac.uk'
-URL = 'https://github.com/vmyrgiotis/MDF_DALEC_Grass'
+URL = 'https://github.com/vmyrgiotis/MDF_DALEC_GRASS'
 
 LICENSE = 'MIT'
 DESCRIPTION = 'A Bayesian model-data fusion algorithm for simulating carbon dynamics in grassland ecosystems'
