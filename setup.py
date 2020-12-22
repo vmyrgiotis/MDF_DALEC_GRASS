@@ -14,7 +14,7 @@ DESCRIPTION = 'A Bayesian model-data fusion algorithm for simulating carbon dyna
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
-INSTALL_REQUIRES = ["numpy", "pandas","spotpy","sklearn","sentinelhub", "shapely", "datetime", "glob", "subprocess", "geopandas", "cdsapi"]
+INSTALL_REQUIRES = ["numpy", "pandas","spotpy","sklearn","sentinelhub", "shapely", "datetime", "glob", "subprocess", "geopandas", "cdsapi","mpi4py"]
 PYTHON_REQUIRES = '>=3.8'
 
 setup(name=PACKAGE_NAME,
