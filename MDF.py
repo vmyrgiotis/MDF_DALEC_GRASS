@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import spotpy
 import numpy as np 
 import pandas as pd 
