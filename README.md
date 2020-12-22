@@ -12,6 +12,8 @@ The package requires a working account with :
 2. European Centre for Medium-Range Weather Forecasts
 3. Amazon Web Services (if not using datastore for UK LAI maps)
 
+TEST
+
 
 
 
