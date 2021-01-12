@@ -14,7 +14,9 @@
 
 The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed on your system 
 
+## Download the package 
 
+To download this package run " git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git " 
 
 
 
