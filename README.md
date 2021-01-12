@@ -12,7 +12,7 @@ The package requires working account with :
 2. [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/forecasts/datasets)
 3. [Amazon Web Services](https://digital-geography.com/accessing-landsat-and-sentinel-2-on-amazon-web-services/#.V3Lr1I68EfI) (if not using datastore for UK LAI maps)
 
-The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed to your system 
+The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed on your system 
 
 
 
