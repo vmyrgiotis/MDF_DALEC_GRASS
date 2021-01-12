@@ -9,10 +9,10 @@ This package allows you to perform the following actions :
 The package requires a working account with : 
 
 1. [Alaska Satellite Facility](https://asf.alaska.edu)
-2. [European Centre for Medium-Range Weather Forecasts] (https://www.ecmwf.int/en/forecasts/datasets)
+2. [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/forecasts/datasets)
 3. Amazon Web Services (if not using datastore for UK LAI maps)
 
-The [Sentinel Application Platform] (https://step.esa.int/main/download/snap-download/) should be installed to your system 
+The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed to your system 
 
 
 
