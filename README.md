@@ -12,7 +12,7 @@ The package requires a working account with :
 2. European Centre for Medium-Range Weather Forecasts
 3. Amazon Web Services (if not using datastore for UK LAI maps)
 
-The Sentinel Application Platform [SNAP](https://step.esa.int/main/download/snap-download/) should be installed to your system 
+The Sentinel Application Platform [(SNAP)](https://step.esa.int/main/download/snap-download/) should be installed to your system 
 
 
 
