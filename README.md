@@ -2,9 +2,9 @@
 
 This package allows you to perform the following actions : 
 
-1. Collect earth observation data (from the Sentinel 1 and 2 systems)
-2. Process the EO data into info on grassland aboveground biomass
-3. Implement a Bayesian model-data fusion algorithm to estimate C dynamics in a grassland field
+1. Collect earth observation (EO) data from the ESA Sentinel 1 and 2 systems
+2. Process the EO data into time series of grass biomass
+3. Implement a probabilistic model-data fusion (MDF) algorithm to estimate C dynamics in a grassland field
 
 The package requires a working account with : 
 
