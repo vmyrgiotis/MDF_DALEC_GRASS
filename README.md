@@ -6,7 +6,7 @@
 2. Process the EO data into time series of grass biomass
 3. Implement a probabilistic model-data fusion (MDF) algorithm to estimate C dynamics in a grassland field
 
-## It requires working account with : 
+## It requires working accounts with : 
 
 1. [Alaska Satellite Facility](https://asf.alaska.edu)
 2. [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/forecasts/datasets)
