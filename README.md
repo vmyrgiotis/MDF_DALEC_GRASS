@@ -16,7 +16,7 @@ The [Sentinel Application Platform](https://step.esa.int/main/download/snap-down
 
 ## Downloading
 
-To download this package run " git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git " 
+To download this package run "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" 
 
 
 
