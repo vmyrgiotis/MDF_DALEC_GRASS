@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is a python package that implements a grassland-specific ecosystem biogeochemistry model [DALEC-Grass](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X) by [assimilating](https://www.sciencedirect.com/science/article/pii/S0168192321001490) earth observation (EO) data on vegetation volume (@10-20m resolution). The package can be used to (1) source and process all the necessary model input data (climate and satellite-based leaf area index) and (2) implement the model's code.
+This is a python package that implements a grassland-specific ecosystem biogeochemistry model [DALEC-Grass](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X) by [assimilating](https://www.sciencedirect.com/science/article/pii/S0168192321001490) satellite-based earth observation (EO) data on vegetation volume. Only two pieces of information are requested from the user : (1) the limits of a grassland field and (2) the time-period to be examined. The package's functions handle the sourcing and processing of all the necessary data and the implementation of the model's code.
 
 The package allows the user to perform the following actions : 
 
