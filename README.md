@@ -12,12 +12,10 @@ The package allows the user to perform the following actions :
 
 ## Requirements 
 
-Working accounts with :
-1. [Alaska Satellite Facility](https://asf.alaska.edu)
-2. [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/forecasts/datasets)
-3. [Amazon Web Services](https://digital-geography.com/accessing-landsat-and-sentinel-2-on-amazon-web-services/#.V3Lr1I68EfI) (if not accessing UK LAI data on datastore)
-
-The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed on your system 
+1. A user account on the [Alaska Satellite Facility](https://asf.alaska.edu)
+2. A user account on the [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/forecasts/datasets)
+3. A user account with [Amazon Web Services](https://digital-geography.com/accessing-landsat-and-sentinel-2-on-amazon-web-services/#.V3Lr1I68EfI) (if not accessing UK LAI data on datastore)
+4. The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed on your system 
 
 ## Package installation 
 
