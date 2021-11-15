@@ -16,6 +16,7 @@ The package handles the sourcing and processing of all the necessary data, and t
 2. A user account on the [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/forecasts/datasets) 
 3. A user account on [Amazon Web Services](https://digital-geography.com/accessing-landsat-and-sentinel-2-on-amazon-web-services/#.V3Lr1I68EfI)
 4. The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed on your system 
+5. Python 3 
 
 ## Package installation 
 
