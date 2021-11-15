@@ -19,7 +19,7 @@ The package allows the user to perform the following actions :
 
 ## Package installation 
 
-To install simply run "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
+To install simply run : git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git
 
 ## References 
 
