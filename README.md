@@ -4,7 +4,7 @@
 
 This is a python package that implements a grassland-specific ecosystem biogeochemistry model [(DALEC-Grass)](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X) by assimilating earth observation (EO) data on vegetation volume. Only two pieces of information are requested from the user : (1) the limits of a grassland field and (2) the time-period to be examined. 
 
-The package handles the sourcing and processing of all the necessary data, and the implementation of the model :
+The package handles the sourcing and processing of all the necessary data, and the implementation of the model's code. Package functions allow the user to :
 
 1. Collect earth observation (EO) data from the ESA Sentinel-1 (SAR) and Sentinel-2 (multispectral) systems
 2. Process the EO data into contiously weekly time-series of grass vegetation  
