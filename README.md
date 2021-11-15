@@ -8,7 +8,7 @@ The package handles the sourcing and processing of all the necessary data, and t
 
 1. Collect earth observation (EO) data from the ESA Sentinel-1 (SAR) and Sentinel-2 (multispectral) systems
 2. Process the EO data into contiously weekly time-series of grass vegetation  
-3. Implement a probabilistic model-data fusion [(MDF)](https://www.sciencedirect.com/science/article/pii/S0168192321001490) algorithm to assimilate the EO data and estimate the weekly C dynamics of any managed grassland field
+3. Implement a probabilistic model-data fusion [(MDF)](https://www.sciencedirect.com/science/article/pii/S0168192321001490) algorithm that assimilates the EO data and simulates the weekly C dynamics of a managed grassland field
 
 ## Requirements 
 
