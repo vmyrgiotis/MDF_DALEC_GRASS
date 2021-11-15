@@ -25,5 +25,5 @@ To download this package run "git clone https://github.com/vmyrgiotis/MDF_DALEC_
 
 ## References 
 
-1. [DALEC-Grass development and validation](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X)
-2. [Inferring field-scale grassland vegetation management (grazing,cutting) by fusing biogeochemical modelling and satellite-based observations](https://www.sciencedirect.com/science/article/pii/S0168192321001490)
+1. [DALEC-Grass development and validation paper](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X)
+2. [Paper on inferring field-scale grassland vegetation management (grazing,cutting) by fusing biogeochemical modelling and satellite-based observations](https://www.sciencedirect.com/science/article/pii/S0168192321001490)
