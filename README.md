@@ -1,5 +1,9 @@
 # MDF DALEC GRASS package 
 
+## Description 
+
+This is a python package that implement an climate-driven, grassland-specific ecosystem biogeochemistry model by assimilating earth observation (EO) data on vegetation volume (@10-20m resolution).
+
 ## Allows you to perform the following actions : 
 
 1. Collect earth observation (EO) data from the ESA Sentinel 1 and 2 systems
