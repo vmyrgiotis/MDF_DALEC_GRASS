@@ -28,5 +28,4 @@ setup(name=PACKAGE_NAME,
 	url=URL,
 	install_requires=INSTALL_REQUIRES,
 	packages=find_packages(),
-        package_dir= src,
 	)
