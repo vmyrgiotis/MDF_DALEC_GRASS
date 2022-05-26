@@ -1,4 +1,4 @@
-from sentinelhub import WebFeatureService, BBox, CRS, DataSource, SHConfig, AwsTileRequest,AwsTile,get_area_info
+from sentinelhub import BBoxSplitter, WebFeatureService, BBox, CRS, DataSource, SHConfig, AwsTileRequest,AwsTile,get_area_info
 from sentinelhub import BBoxSplitter, OsmSplitter, TileSplitter, CustomGridSplitter, UtmZoneSplitter, UtmGridSplitter
 import pandas as pd 
 import numpy as np 
