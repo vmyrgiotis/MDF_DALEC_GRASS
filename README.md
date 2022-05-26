@@ -20,5 +20,8 @@ The package handles the sourcing and processing of all the necessary data, and t
 
 ## Package installation 
 
-To install simply run : git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git
+To install either run : 
+"git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then while inside MDF_DALEC_GRASS dir "python setup.py install"  
+or 
+"pip install git+https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
 
