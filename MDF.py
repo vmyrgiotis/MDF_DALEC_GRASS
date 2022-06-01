@@ -19,7 +19,7 @@ def run(workingdir,sitename) :
 
 			## Load drivers 
 			self.met       = np.array(np.load('%s/%s_M.npy' %(self.workingdir,self.sitename)),order="F")   
-			self.met       = np.append(self.met[:52],self.met,axis=1) ## add 1 spinup year 
+			self.met       = np.append(self.met[:,:52],self.met,axis=1) ## add 1 spinup year 
 			self.met[0,:]  = np.arange(1,len(self.met[0,:])+1) ## re-create index 
 
 			## Fill DALEC-Grass input variables 
@@ -37,7 +37,6 @@ def run(workingdir,sitename) :
 
 			#### Load LAI observations 
 			self.obs_lai = np.load("%s/%s_O.npy" %(self.workingdir,self.sitename)) 
-			self.obs_lai  = np.append(self.obs_lai[:52],self.obs_lai)  # add obs LAI for spinup year 
 
 
 		def parameters(self): 
@@ -112,9 +111,9 @@ def run(workingdir,sitename) :
 				LAIDF = pd.DataFrame()
 				LAIDF['sim'] = lai
 				LAIDF.index = pd.date_range('2016-01-01', periods = self.nodays, freq='7D')
-				LAIDF['obs'] = self.obs_lai
-				LAIDF = LAIDF.dropna()
 				LAIDF = LAIDF['2017':]
+				LAIDF['obs'] = self.obs_lai[:-1]
+				LAIDF = LAIDF.dropna()
 
 				## Drop spinup year from results 
 				rem = rem[:,52:] 
