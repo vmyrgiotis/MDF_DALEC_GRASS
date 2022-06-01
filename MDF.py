@@ -16,7 +16,7 @@ class abc_dalec() :
 		self.sitename = sitename
 		
 		## Load drivers 
-		self.met       = np.array(np.load('%s/DALEC_Grass_data/inputs/met_%s.npy' %(self.workingdir,self.sitename)),order="F")   
+		self.met       = np.array(np.load('%s/%s_M.npy' %(self.workingdir,self.sitename)),order="F")   
 		self.met       = np.append(self.met[:52],self.met,axis=1) ## add 1 spinup year 
 		self.met[0,:]  = np.arange(1,len(self.met[0,:])+1) ## re-create index 
 		
@@ -34,7 +34,7 @@ class abc_dalec() :
 		self.version_code = 1
 
 		#### Load LAI observations 
-		self.obs_lai = np.load("%s/DALEC_Grass_data/inputs/laiobs_%s.npy" %(self.workingdir,self.sitename)) 
+		self.obs_lai = np.load("%s/%s_O.npy" %(self.workingdir,self.sitename)) 
 		self.obs_lai  = np.append(self.obs_lai[:52],self.obs_lai)  # add obs LAI for spinup year 
 
 
@@ -169,7 +169,7 @@ class abc_dalec() :
 		# results.append(sampler.sample(10000000,nChains=1000))
 
 		### Simulated Annealing 
-		sampler = spotpy.algorithms.sa(spotpy_setup, dbname='%s/DALEC_Grass_data/outputs/MDF_outs_%s'%(self.workingdir,self.sitename), dbformat='csv', save_sim=True, parallel='mpi') 
+		sampler = spotpy.algorithms.sa(spotpy_setup, dbname='%s/MDF_outs_%s'%(self.workingdir,self.sitename), dbformat='csv', save_sim=True, parallel='mpi') 
 		results.append(sampler.sample(repetitions=10000000, Tini=90, Ntemp=3000, alpha=0.99)) # tini: Starting temperature | Ntemp: No of trials per T | alpha: T reduction
 
 
