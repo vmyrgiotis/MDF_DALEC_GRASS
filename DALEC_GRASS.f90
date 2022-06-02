@@ -48,6 +48,14 @@
 !         1 g.C.m-2 = 1 * 0.021 t.DM.ha-1
 !         to compile this .f90 into a python shared object (.so) run: f2py -c DALEC_GRASS.f90 -m DALEC_GRASS
 ! ----------------------------------------------------------------------------------------------------------------
+!                  autotrophic      heterotrophic     loss due to     --->    manure from          
+!                  respiration      respiration       grazing/cutting         grazing livestock       
+!                       ^            ^                   ^                       |       
+!                       |            |                   |                       V      
+!                                                                                   
+!PHOTOSYNTHESIS -----> [0] -------> [0] --------------> [0] <-----------------> [0]     
+!                 GPP         NPP            NEE                   NBE                 
+! ----------------------------------------------------------------------------------------------------------------
 
 module CARBON_MODEL_MOD
 
