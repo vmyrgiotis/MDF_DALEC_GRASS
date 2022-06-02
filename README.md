@@ -1,4 +1,4 @@
-# MDF DALEC GRASS package 
+# MDF DALEC GRASS  
 
 ## Description 
 
