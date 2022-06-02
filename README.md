@@ -7,7 +7,7 @@ This is a python package that implements a grassland-specific ecosystem biogeoch
 The package handles the sourcing and processing of all the necessary data, and the implementation of the model's code. Package functions allow the user to :
 
 1. Collect earth observation (EO) data from the ESA Sentinel-1 (SAR) and Sentinel-2 (multispectral) systems
-2. Process the EO data into contiously weekly time-series of grass vegetation  
+2. Process the EO data into contiously weekly time-series of grass Leaf Area Index (LAI)  
 3. Implement a probabilistic model-data fusion [(MDF)](https://www.sciencedirect.com/science/article/pii/S0168192321001490) algorithm that assimilates the EO data and simulates the weekly C dynamics of a managed grassland field
 
 
