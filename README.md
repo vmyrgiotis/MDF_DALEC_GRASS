@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is a python package that implements an ecosystem model of grassland carbon (C) biogeochemistry [(DALEC-Grass)](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X). DALEC-Grass is integrated into a model-data fusion (MDF) framework. The MDF framework implements DALEC-Grass probabilistically and uses location-specific (1) weather time-series, (2) soil data and (3) earth observation (EO) time-series on vegetation leaf area, in order to (A) calibrate the model's parameters (B) validate model predictions and (C) estimate field-scale C cycling i.e. C in biomass, roots, soil, C lost to the atmosphere and C removed via grazing/cutting. 
+This is a python package that implements an ecosystem model of grassland carbon (C) biogeochemistry [(DALEC-Grass)](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X). DALEC-Grass is integrated into a model-data fusion (MDF) framework. The MDF framework implements DALEC-Grass probabilistically using location-specific (1) weather time-series, (2) soil data and (3) earth observation (EO) time-series on vegetation leaf area, in order to (A) calibrate the model's parameters (B) validate model predictions and (C) estimate field-scale C cycling i.e. C in biomass, roots, soil, C lost to the atmosphere and C removed via grazing/cutting. 
 
 The package handles the sourcing and processing of all the necessary data, and the implementation of the model's code. Its functions allow the user to :
 
