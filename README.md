@@ -10,7 +10,6 @@ The package handles the sourcing and processing of all the necessary data, and t
 2. Process the EO data into contiously weekly time-series of grass vegetation  
 3. Implement a probabilistic model-data fusion [(MDF)](https://www.sciencedirect.com/science/article/pii/S0168192321001490) algorithm that assimilates the EO data and simulates the weekly C dynamics of a managed grassland field
 
-The package contains a jupyter notebook-based tutorial.
 
 ## Requirements 
 
@@ -26,4 +25,15 @@ To install either run :
 "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then (while inside MDF_DALEC_GRASS) runn "python setup.py install"  
 or 
 "pip install git+https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
+
+## Tutorial 
+
+To run the tutorial follow these steps : 
+
+1. create a conda environment by running: "conda create -n dalec_grass python=3.9.7"
+2. activate the dalec_grass conda env by running: "conda activate dalec_grass"
+3. install some python packages: "pip install ipython matplotlib jupyter pandas numpy spotpy wand salem convertbng geopandas motionless"
+4. clone the github repo "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
+5. naviate to the github repo location cd /pathto/MDF_DALEC_GRASS 
+6. run "jupyter notebook" , the default browser opens , select dalec_grass_tutorial.ipynb 
 
