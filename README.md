@@ -29,7 +29,7 @@ or
 
 ## Tutorial 
 
-To run the tutorial follow these steps : 
+To run the tutorial on a local machine : 
 
 *  install miniconda if you don't have it (see  https://docs.conda.io/en/latest/miniconda.html)
 1. create a conda environment by running: "conda create -n dalec_grass python=3.9.7"
@@ -39,3 +39,10 @@ To run the tutorial follow these steps :
 5. navigate to the location of the github repo that you just cloned : cd /MDF_DALEC_GRASS 
 6. run "jupyter notebook" , your default browser starts , click on dalec_grass_tutorial.ipynb 
 
+To run the tutorial on a remote server:
+
+1. open a 1st terminal tab and : ssh username@remote.server.address
+*  open steps * to 5 from "run the tutotial on a local machine" shown above
+2. then : jupyter notebook --no-browser --port=8008
+3. open a 2nd terminal tab and : ssh -L 8008:localhost:8008 username@remote.server.address 
+4. on the local machine open a browser and go to http://localhost:8008/
