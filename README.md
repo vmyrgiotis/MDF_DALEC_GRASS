@@ -43,3 +43,9 @@ To install either "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" 
 3. then : "jupyter notebook --no-browser --port=8008"
 4. open a 2nd terminal tab and : "ssh -L 8008:localhost:8008 username@remote.server.address"
 5. on the local machine open an internet browser and go to http://localhost:8008/
+
+> To clean up after running the tutorial
+1. conda deactivate 
+2. conda env remove -n dalec_grass
+3. rm -r MDF_DALEC_GRASS
+
