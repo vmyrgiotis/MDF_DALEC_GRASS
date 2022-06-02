@@ -2,12 +2,12 @@
 
 ## Description 
 
-This is a python package that implements a grassland-specific ecosystem biogeochemistry model [(DALEC-Grass)](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X) by assimilating earth observation (EO) data on vegetation volume. Only two pieces of information are requested from the user : (1) the limits of a grassland field and (2) the time-period to be examined. 
+This is a python package that implements an ecosystem model of grassland carbon biogeochemistry [(DALEC-Grass)](https://www.sciencedirect.com/science/article/abs/pii/S0308521X2030768X). DALEC-Grass is integrated into a model-data fusion (MDF) framework. The MDF framework implements DALEC-Grass probabilistically using location-specific (1) weather and soil data to drive the model and (2) earth observation (EO) data on vegetation leaf area, in oder to calibrate the model's parameters and validate model predictions. 
 
-The package handles the sourcing and processing of all the necessary data, and the implementation of the model's code. Package functions allow the user to :
+The package handles the sourcing and processing of all the necessary data, and the implementation of the model's code. The functions of this package allow the user to :
 
 1. Collect earth observation (EO) data from the ESA Sentinel-1 (SAR) and Sentinel-2 (multispectral) systems
-2. Process the EO data into continuous weekly time-series of grass Leaf Area Index (LAI)  
+2. Process the EO data into weekly continuous time-series of grass Leaf Area Index (LAI)  
 3. Implement a probabilistic model-data fusion [(MDF)](https://www.sciencedirect.com/science/article/pii/S0168192321001490) algorithm that assimilates the EO data and simulates the weekly C dynamics of a managed grassland field
 
 
@@ -23,7 +23,6 @@ The package handles the sourcing and processing of all the necessary data, and t
 
 To install either "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then (while inside MDF_DALEC_GRASS) run "python setup.py install" 
 --OR-- "pip install git+https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
-
 
 ## Tutorial 
 
