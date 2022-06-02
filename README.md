@@ -39,8 +39,8 @@ To install either "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" 
 
 > To run the tutorial on a remote server:
 
-1. open a 1st terminal tab and : ssh username@remote.server.address
-2. complete steps 1 to 6 from "run the tutotial on a local machine" shown above
-3. then : jupyter notebook --no-browser --port=8008
-4. open a 2nd terminal tab and : ssh -L 8008:localhost:8008 username@remote.server.address 
-5. on the local machine open a browser and go to http://localhost:8008/
+1. open a 1st terminal tab and : "ssh username@remote.server.address"
+2. complete steps 1 to 6 from the running-on-local-machine shown above
+3. then : "jupyter notebook --no-browser --port=8008"
+4. open a 2nd terminal tab and : "ssh -L 8008:localhost:8008 username@remote.server.address"
+5. on the local machine open an internet browser and go to http://localhost:8008/
