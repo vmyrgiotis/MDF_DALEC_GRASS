@@ -32,9 +32,9 @@ or
 To run the tutorial follow these steps : 
 
 *  install miniconda if you don't have it (see  https://docs.conda.io/en/latest/miniconda.html)
-1. create a conda environment by running: "conda create -n dalec_grass python=3.9.7 jupyter"
+1. create a conda environment by running: "conda create -n dalec_grass python=3.9.7"
 2. activate the dalec_grass conda environment : "conda activate dalec_grass"
-3. install some python packages : "pip install matplotlib pandas numpy spotpy netCDF4 wand itermplot salem convertbng geopandas motionless joblib xarray"
+3. install some python packages : "pip install matplotlib jupyter pandas numpy spotpy netCDF4 wand itermplot salem convertbng geopandas motionless joblib xarray"
 4. clone the github repo : "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
 5. naivate to the location of the github repo that you just cloned : cd /MDF_DALEC_GRASS 
 6. run "jupyter notebook" , your default browser starts , click on dalec_grass_tutorial.ipynb 
