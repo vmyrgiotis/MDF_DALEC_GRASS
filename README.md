@@ -29,12 +29,12 @@ To install either "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" 
 
 > To run the tutorial on a local machine : 
 
-1. install miniconda on the machine (if you don't have it) : https://docs.conda.io/en/latest/miniconda.html
+1. install miniconda on the machine (if not installed) : https://docs.conda.io/en/latest/miniconda.html
 2. create a conda environment by running : "conda create -n dalec_grass python=3.9.7"
 3. activate the dalec_grass conda environment : "conda activate dalec_grass"
 4. install some python packages : "pip install matplotlib jupyter pandas numpy spotpy netCDF4 wand itermplot salem convertbng geopandas motionless joblib xarray"
 5. clone the github repo : "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
-6. navigate to the location of the github repo that you just cloned : cd /MDF_DALEC_GRASS 
+6. navigate to the location of the github repo that you just cloned : "cd /MDF_DALEC_GRASS"
 7. run "jupyter notebook" , your default browser starts , click on dalec_grass_tutorial.ipynb 
 
 > To run the tutorial on a remote server:
