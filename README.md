@@ -32,7 +32,7 @@ or
 To run the tutorial follow these steps : 
 
 1. create a conda environment by running: "conda create -n dalec_grass python=3.9.7"
-2. activate the dalec_grass conda env by running: "conda activate dalec_grass"
+2. activate the dalec_grass conda environment by running: "conda activate dalec_grass"
 3. install some python packages: "pip install ipython matplotlib jupyter pandas numpy spotpy wand salem convertbng geopandas motionless"
 4. clone the github repo "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
 5. naviate to the github repo location cd /pathto/MDF_DALEC_GRASS 
