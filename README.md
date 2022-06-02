@@ -19,12 +19,10 @@ The package handles the sourcing and processing of all the necessary data, and t
 4. A user account on [Amazon Web Services](https://digital-geography.com/accessing-landsat-and-sentinel-2-on-amazon-web-services/#.V3Lr1I68EfI)
 5. The [Sentinel Application Platform](https://step.esa.int/main/download/snap-download/) should be installed on your system 
 
-## Package installation 
+## installation 
 
 To install either run : 
-"git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then (while inside MDF_DALEC_GRASS) run "python setup.py install"  
-or 
-"pip install git+https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
+"git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then (while inside MDF_DALEC_GRASS) run "python setup.py install" or "pip install git+https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
 
 
 ## Tutorial 
