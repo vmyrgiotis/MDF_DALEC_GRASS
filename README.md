@@ -42,7 +42,7 @@ To run the tutorial on a local machine :
 To run the tutorial on a remote server:
 
 1. open a 1st terminal tab and : ssh username@remote.server.address
-* complete steps * to 5 from "run the tutotial on a local machine" shown above
+*complete steps * to 5 from "run the tutotial on a local machine" shown above
 2. then : jupyter notebook --no-browser --port=8008
 3. open a 2nd terminal tab and : ssh -L 8008:localhost:8008 username@remote.server.address 
 4. on the local machine open a browser and go to http://localhost:8008/
