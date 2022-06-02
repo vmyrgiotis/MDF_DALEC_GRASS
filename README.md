@@ -10,6 +10,8 @@ The package handles the sourcing and processing of all the necessary data, and t
 2. Process the EO data into contiously weekly time-series of grass vegetation  
 3. Implement a probabilistic model-data fusion [(MDF)](https://www.sciencedirect.com/science/article/pii/S0168192321001490) algorithm that assimilates the EO data and simulates the weekly C dynamics of a managed grassland field
 
+The package contains a jupyter notebook-based tutorial.
+
 ## Requirements 
 
 1. Python 3 
@@ -21,7 +23,7 @@ The package handles the sourcing and processing of all the necessary data, and t
 ## Package installation 
 
 To install either run : 
-"git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then while inside MDF_DALEC_GRASS dir "python setup.py install"  
+"git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git" and then (while inside MDF_DALEC_GRASS) runn "python setup.py install"  
 or 
 "pip install git+https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
 
