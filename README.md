@@ -36,5 +36,5 @@ To run the tutorial follow these steps :
 3. install some python packages : "pip install ipython matplotlib jupyter pandas numpy spotpy wand salem convertbng geopandas motionless"
 4. clone the github repo : "git clone https://github.com/vmyrgiotis/MDF_DALEC_GRASS.git"
 5. naivate to the location of the github repo that you just cloned : cd /local_path_to/MDF_DALEC_GRASS 
-6. run "jupyter notebook" , your default browser starts , select dalec_grass_tutorial.ipynb 
+6. run "jupyter notebook" , your default browser starts , click on dalec_grass_tutorial.ipynb 
 
